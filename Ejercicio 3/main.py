@@ -1,0 +1,33 @@
+#from ListaCur import *
+from ListaCurCont import*
+
+if __name__=='__main__':
+    '''lista_cursores = Lista_Cursores(6)
+    lista_cursores.Insertar(1)
+    lista_cursores.Insertar(2)
+    lista_cursores.Insertar(3)
+    lista_cursores.Insertar(4)
+    lista_cursores.Insertar(5)
+    print("Lista: ")
+    lista_cursores.Recorrer()
+    print(f"Primer elemento: {lista_cursores.Primer_Elemento()}")
+    print(f"Ultimo elemento: {lista_cursores.Ultimo_Elemento()}")
+    lista_cursores.Suprimir(1)
+    lista_cursores.Suprimir(4)
+    print("Lista pos suprecion: ")
+    lista_cursores.Recorrer()
+    print(f"Primer elemento: {lista_cursores.Primer_Elemento()}")
+    print(f"Ultimo elemento: {lista_cursores.Ultimo_Elemento()}")
+    print(f"Posicion 2: {lista_cursores.Recuperar(2)}")'''
+    lista = Lista_Cursores_Contenido(7)
+    lista.Insertar(1)
+    lista.Insertar(5)
+    lista.Insertar(2)
+    lista.Insertar(4)
+    lista.Insertar(3)
+    print("Lista: ")
+    lista.Recorrer()
+    lista.Suprimir(1)
+    lista.Suprimir(4)
+    print("Lista: ")
+    lista.Recorrer()
